@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.quiz.QuizStartActivity"
+    android:orientation="vertical"
+
+    >
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Physics Quiz"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        android:layout_marginTop="80dp"/>
+
+
+    <Button
+        android:id="@+id/randomBtn"
+        android:layout_width="@dimen/answerBtn_width"
+        android:layout_height="@dimen/answerBtn_height"
+        android:layout_gravity="center_horizontal"
+        android:text="Start Now "
+        android:layout_marginTop="70dp"
+        android:onClick="startQuiz"/>
+    <Button
+        android:id="@+id/chp1Btn"
+        android:layout_width="@dimen/answerBtn_width"
+        android:layout_height="@dimen/answerBtn_height"
+        android:layout_gravity="center_horizontal"
+        android:text="Exit Quiz"
+        android:layout_marginTop="2dp"
+        android:onClick="exitQuiz"
+        android:fontFamily="cu"/>
+
+    <!--
+    <Button
+        android:id="@+id/chp3Btn"
+        android:layout_width="@dimen/answerBtn_width"
+        android:layout_height="@dimen/answerBtn_height"
+        android:layout_gravity="center_horizontal"
+        android:text="Chapter 3,4"
+        android:layout_marginTop="2dp"
+        android:onClick="startQuiz"/>
+    <Button
+        android:id="@+id/chp5Btn"
+        android:layout_width="@dimen/answerBtn_width"
+        android:layout_height="@dimen/answerBtn_height"
+        android:layout_gravity="center_horizontal"
+        android:text="Chapter 5,6"
+        android:layout_marginTop="2dp"
+        android:onClick="startQuiz"/>
+    <Button
+        android:id="@+id/chp7Btn"
+        android:layout_width="@dimen/answerBtn_width"
+        android:layout_height="@dimen/answerBtn_height"
+        android:layout_gravity="center_horizontal"
+        android:text="Chapter 7,8"
+        android:layout_marginTop="2dp"
+        android:onClick="startQuiz"/>
+    <Button
+        android:id="@+id/chp9Btn"
+        android:layout_width="@dimen/answerBtn_width"
+        android:layout_height="@dimen/answerBtn_height"
+        android:layout_gravity="center_horizontal"
+        android:text="Chapter 9"
+        android:layout_marginTop="2dp"
+        android:onClick="startQuiz"
+        android:layout_marginBottom="15dp"/>
+    -->
+
+</LinearLayout>

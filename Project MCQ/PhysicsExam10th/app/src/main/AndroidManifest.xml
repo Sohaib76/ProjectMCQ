@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ngoctri.introsliderexam">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".WelcomeActivity" />
+        <activity
+            android:name=".HomeActivity"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MCQ" />
+        <activity android:name=".Electrical" />
+        <activity android:name=".Charges" />
+        <activity android:name=".Current" />
+        <activity android:name=".Focal_Length" />
+        <activity android:name=".Light" />
+        <activity android:name=".Spring_System" />
+        <activity android:name=".Transformer" />
+        <activity android:name=".Waves" />
+        <activity android:name=".Resistance" />
+        <activity android:name=".IT" />
+        <activity android:name=".Nuclear_Physics" />
+        <activity android:name=".Sound" />
+        <activity android:name=".Quantities" />
+        <activity android:name=".Voltmeter" />
+        <activity android:name=".Pendulum" />
+        <activity
+            android:name=".QuizStart"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".Quiz"
+            android:parentActivityName=".QuizStart" />
+        <activity
+            android:name=".QuizEnd"
+            android:parentActivityName=".QuizStart"></activity>
+        <activity android:name=".About"></activity>
+    </application>
+
+</manifest>
